@@ -1,0 +1,14 @@
+{
+  "/api/auth/signin": "/users",
+  "/api/categories": "/categories",
+  "/api/categories/:id": "/categories/:id",
+  "/api/subcategories": "/subcategories",
+  "/api/subcategories/:id": "/subcategories/:id",
+  "/api/items": "/items",
+  "/api/items/:id": "/items/:id",
+  "/api/photos/:itemId": "/photos/:itemId",
+  "/api/favorites": "/favorites",
+  "/api/favorites/:id": "/favorites/:id",
+  "/api/favorites/user/:userId": "/favorites/user/:userId",
+  "/api/favorites/item/:itemId": "/favorites/item/:itemId"
+}

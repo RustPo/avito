@@ -1,0 +1,139 @@
+nav {
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+  cursor: pointer;
+}
+.menu > li {
+  float: left;
+  color: #e298e1;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+}
+.sub-menu {
+  z-index: 1001;
+  transform: scale(0);
+  position: relative;
+  right: 170px;
+  top: 18px;
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+}
+.der {
+  cursor: default;
+}
+.prof {
+  cursor: pointer;
+}
+.a {
+  border-radius: 5px;
+  background: rgb(14 116 144);
+  width: fit-content;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+#hv,
+.menu,
+nav {
+  width: 24px;
+  margin-right: 200px;
+}
+.sub-menu li {
+  z-index: 1001;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 8px 0;
+  width: 200px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+  text-align: start;
+  padding-left: 10px;
+}
+.sub-menu li:last-child {
+  border-bottom: 0;
+}
+.sub-menu li:hover {
+  background: black;
+}
+.menu > li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu > li:hover .sub-menu {
+  transform: scale(1);
+}
+
+.master {
+  background: #292929;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 55px;
+  color: white;
+  align-items: center;
+}
+
+.start {
+  margin-left: 10px;
+  display: flex;
+}
+
+.no-auth {
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.plus {
+  display: none;
+}
+
+.plus:hover {
+  fill: #00aaff;
+}
+
+.logo2 {
+  display: none;
+  align-items: center;
+  width: fit-content !important;
+}
+
+.logo2 img {
+  height: 24px;
+  width: 24px;
+}
+@media (max-width: 790px) {
+  .a {
+    display: none;
+  }
+
+  .plus {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .end {
+    width: 120px;
+  }
+
+  .master {
+    justify-content: space-between;
+  }
+
+  .no-auth {
+    justify-content: flex-end;
+    padding-right: 100px;
+  }
+
+  .logo2 {
+    display: flex;
+  }
+}

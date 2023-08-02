@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-title {
+    @apply line-clamp-2  max-h-14 text-[#3477af] cursor-pointer text-xl font-bold;
+  }
+  .card-price {
+    @apply line-clamp-1 font-bold;
+  }
+  .card-adress {
+    /* @apply line-clamp-1 over text-sm  text-[#757575]; */
+    @apply line-clamp-1  text-sm  text-[#757575];
+  }
+  .card-time {
+    @apply text-sm h-4 text-[#757575];
+  }
+  .main-popular {
+    @apply rounded-xl hover:bg-gray-300  bg-[#f2f1f0];
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Булат",
+      "email": "1@1",
+      "phone": "+71111234567",
+      "password": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Электроника",
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 2,
+      "title": "Животные",
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "title": "Бытовая техника",
+      "categoryId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 2,
+      "title": "Гаджеты",
+      "categoryId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 3,
+      "title": "Аудио/Видио/Фото",
+      "categoryId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 4,
+      "title": "Игры/Приставки",
+      "categoryId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 5,
+      "title": "Компьютеры",
+      "categoryId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 6,
+      "title": "Кошки",
+      "categoryId": 2,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 7,
+      "title": "Собаки",
+      "categoryId": 2,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Заголовок 1",
+      "description": "Описание 1",
+      "price": 1000,
+      "address": "Уфа Уфа",
+      "subcategoryId": 1,
+      "userId": 1,
+      "features": {},
+      "isActive": true,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 2,
+      "title": "Заголовок 2",
+      "description": "Описание 2",
+      "price": 2000,
+      "address": "Москва",
+      "subcategoryId": 3,
+      "userId": 1,
+      "features": {},
+      "isActive": true,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 3,
+      "title": "Заголовок 3",
+      "description": "Описание 3",
+      "price": 3000,
+      "address": "Красноярск",
+      "subcategoryId": 2,
+      "userId": 1,
+      "features": {},
+      "isActive": true,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 4,
+      "title": "Заголовок 1111",
+      "description": "Описание 1111",
+      "price": 99000,
+      "address": "Адрес",
+      "subcategoryId": 1,
+      "userId": 1,
+      "features": {},
+      "isActive": true,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ],
+  "photos": [
+    {
+      "id": 1,
+      "url": "https://img.freepik.com/premium-photo/abstract-liquid-wallpaper_692702-9833.jpg?w=900",
+      "itemId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 2,
+      "url": "https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg?w=900",
+      "itemId": 2,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 3,
+      "url": "https://img.freepik.com/premium-photo/aromatic-coffee-splashing-cappuccino-cup_75891-2686.jpg?w=900",
+      "itemId": 3,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "itemId": 1,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "itemId": 2,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "itemId": 3,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "itemId": 3,
+      "createdAt": "2023-07-04 11:07:20.405 +0300",
+      "updateAt": "2023-07-04 11:07:20.405 +0300"
+    }
+  ]
+}

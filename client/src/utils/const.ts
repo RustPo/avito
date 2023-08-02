@@ -1,0 +1,11 @@
+export const MAINPAGE_ROUTE = '/';
+export const CATEGORYPAGE_ROUTE = '/categories/:categoryId';
+export const SEARCHPAGE_ROUTE = '/search';
+export const ITEMPAGE_ROUTE = '/items/:itemId';
+export const FORMITEMPAGE_ROUTE = '/formitem';
+export const PROFILEPAGE_ROUTE = '/profile';
+export const FAVORITESPAGE_ROUTE = '/profile/favorites';
+export const AUTHPAGEREGISTRATION_ROUTE = '/user/registration';
+export const AUTHPAGELOGIN_ROUTE = '/user/login';
+export const SUBCATEGORYPAGE_ROUTE = '/:categoty/:subcategory';
+export const PROFILEOWNERPAGE_ROUTE = '/profile/user';
